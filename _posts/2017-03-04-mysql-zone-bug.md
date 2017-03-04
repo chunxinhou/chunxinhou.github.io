@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "mybatis连接mysql的时候报时区错误"
-date:   2017-03-03 22:06:05
+date:   2017-03-04 22:06:05
 categories: mysql
 tags: mysql bug
 author: Hcx
