@@ -14,7 +14,7 @@ author: Hcx
 
 * Global logging configuration
 
-  > log4j.rootLogger=ERROR, stdout
+ > log4j.rootLogger=ERROR, stdout
 
 *  MyBatis logging configuration...
 
