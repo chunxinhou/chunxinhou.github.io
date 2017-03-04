@@ -17,3 +17,10 @@ author: Hcx
 >show variables like '%time_zone%';
 
 ![](http://chunxinhou.github.io/images/mysqlbug.jpg)
+
+
+
+## 解决办法
+> set global time_zone='+8:00'
+
+![](http://chunxinhou.github.io/images/mysqlbug2.png)
