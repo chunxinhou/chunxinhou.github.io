@@ -16,4 +16,4 @@ author: Hcx
 ## 查看时区
 >show variables like '%time_zone%';
 
-![]:(http://chunxinhou.github.io/images/mysqlbug.jpg)
+![](http://chunxinhou.github.io/images/mysqlbug.jpg)
