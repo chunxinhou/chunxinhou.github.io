@@ -18,13 +18,16 @@ author: Hcx
 
 *  MyBatis logging configuration...
 
- > log4j.logger.com.web.mapper.TestMapper=TRACE
-   log4j.logger.com.web.mapper=DEBUG
+  > log4j.logger.com.web.mapper=DEBUG
+
+  > log4j.logger.com.web.mapper.TestMapper=TRACE
+
 
 ![](http://chunxinhou.github.io/images/log4j-mybatis.png)
+
 
 * Console output...
 
  > log4j.appender.stdout=org.apache.log4j.ConsoleAppender
-    log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+  log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
  log4j.appender.stdout.layout.ConversionPattern=%5p [%t] - %m%n
