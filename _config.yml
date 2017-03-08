@@ -45,8 +45,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   
-    coderay_line_numbers:  nil
-
 # port
 # port: 1234
 
