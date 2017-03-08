@@ -40,9 +40,7 @@ google_analytics_id: UA-92956174-1 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+
 
 # port
 # port: 1234
