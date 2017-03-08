@@ -14,12 +14,12 @@ url: "https://chunxinhou.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: 
-facebook_username: 
+twitter_username:
+facebook_username:
 github_username:  chunxinhou
 email: chunxinhou@foxmail.com
-weibo_username: 
-zhihu_username: 
+weibo_username:
+zhihu_username:
 linkedIn_username: chunxinhou
 dribbble_username:
 
@@ -43,7 +43,14 @@ markdown: kramdown
 
 kramdown:
   input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  use_coderay: true
   syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
 
 # port
 # port: 1234
