@@ -40,7 +40,14 @@ google_analytics_id: UA-92956174-1 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
+highlights: pygments
 
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
 # port
 # port: 1234
