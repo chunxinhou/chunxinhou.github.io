@@ -40,11 +40,12 @@ google_analytics_id: UA-92956174-1 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
+  extensions: [ "fenced_code_blocks", "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
 
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
+
 # port
 # port: 1234
 
