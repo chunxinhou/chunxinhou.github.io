@@ -141,6 +141,9 @@ type: page
 * [测试框架 Mocha 实例教程 阮一峰](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
 
 ## 类库与插件
+* [Layer](http://layer.layui.com/)
+
+    弹出框插件
 
 * [Masonry](http://masonry.desandro.com/)
 
